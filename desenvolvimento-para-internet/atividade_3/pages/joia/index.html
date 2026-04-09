@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="André Codato">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BELEZA?</title>
+    <style>
+        body {
+            background-color: var(--cor-background);
+            color: var(--cor-secundaria);
+        }
+
+        :root {
+            --cor-background: #7426a3;
+            --cor-primaria: #42135f;
+            --cor-secundaria: #6aa84f;
+        }
+
+        .imagem-grid {
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-items: center;
+        }
+        .imagem-grid a {
+            grid-column: span 2;
+            text-decoration: none;
+            color: var(--cor-secundaria);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: var(--cor-primaria);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="imagem-grid">
+            <img src="../../images/arnold.png" alt="Imagem de uma joia" width="300">
+            <img src="../../images/bob.gif" alt="Imagem de uma joia" width="300">
+            <img src="../../images/will.jpeg" alt="Imagem de uma joia" width="300">
+            <img src="../../images/show.gif" alt="Imagem de uma joia" width="300">
+            <a href="../../index.html">👍 Voltar 👍</a>
+        </div>
+    </main>
+</body>
+</html>

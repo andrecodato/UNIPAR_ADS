@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="André Codato">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3 - Tabelas</title>
+    <style>
+        body {
+            background-color: var(--cor-background);
+            color: var(--cor-secundaria);
+        }
+
+        :root {
+            --cor-background: #7426a3;
+            --cor-primaria: #42135f;
+            --cor-secundaria: #6aa84f;
+        }
+
+        .site-titulo {
+            text-align: center;
+            margin-top: 50px;
+            background-color: var(--cor-primaria);
+            margin-left: 20%;
+            margin-right: 20%;
+            border-radius: 10px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        table {
+            margin: 50px auto;
+            border-radius: 10px;
+            width: 80%;
+            background-color: var(--cor-primaria);
+        }
+
+        th, td {
+            border: 1px solid var(--cor-secundaria);
+            padding: 10px;
+            text-align: left;
+        }
+        .voltar-botao {
+            display: block;
+            width: 100px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            background-color: var(--cor-primaria);
+            color: var(--cor-secundaria);
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="site-titulo">
+            <h1>Atividade 3 - Tabelas</h1>
+
+        </div>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Telefones</th>
+            </tr>
+            <tr>
+                <td>André</td>
+                <td>25</td>
+                <td>(41) 99999-9999 | (41) 98888-8888</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>30</td>
+                <td>(11) 88888-8888 | (11) 87777-7777</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>28</td>
+                <td>(21) 77777-7777 | (21) 76666-6666</td>
+            </tr>
+        </table>
+        <a href="../../index.html" class="voltar-botao">Voltar</a>
+    </main>
+</body>
+
+</html>

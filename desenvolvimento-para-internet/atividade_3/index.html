@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3 - Primeiro Css</title>
+    <style>
+        body {
+            background-color: var(--cor-background);
+            color: var(--cor-secundaria);
+        }
+
+        h1,h2,h3 {
+            color: var(--cor-secundaria);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        p,a,li {
+            color: var(--cor-secundaria);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        :root {
+            --cor-background: #7426a3;
+            --cor-primaria: #42135f;
+            --cor-secundaria: #6aa84f;
+        }
+        
+        .site-titulo {
+            text-align: center;
+            margin-top: 50px;
+            background-color: var(--cor-primaria);
+            margin-left: 20%;
+            margin-right: 20%;
+            border-radius: 10px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        .ul-lista {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+        }
+        .ul-lista ul {
+            background-color: var(--cor-primaria);
+            padding: 40px;
+            border-radius: 10px;
+        }
+        .ul-lista ul li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="site-titulo">
+            <h1>Atividade 3 - Primeiro Css</h1>
+            <p>Estou animado para relembrar css puro depois de tanto tailwind!</p>
+        </div>
+        <div class="ul-lista">
+            <ul>
+                <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                <li><a href="./pages/joia/index.html">Joia???</a></li>
+                <li><a href="./pages/tabelas/index.html">Tabelas</a></li>
+            </ul>
+        </div>
+        <div>
+
+        </div>
+    </main>
+</body>
+</html>
