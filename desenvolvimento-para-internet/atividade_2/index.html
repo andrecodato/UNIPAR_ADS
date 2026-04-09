@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="André Codato" />
+    <meta name="description" content="Atividade 2 - HTML" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 2</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .atividade-section {
+        max-width: 80%;
+        width: 100%;
+        background-color: wheat;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      h1 {
+        color: darkslategray;
+        font-size: 5rem;
+      }
+
+      u {
+        text-decoration-color: blueviolet;
+      }
+
+      h2 {
+        color: crimson;
+      }
+
+      h3 {
+        color: darkorange;
+      }
+
+      h4 {
+        color: seagreen;
+      }
+
+      h5 {
+        color: royalblue;
+      }
+
+      h6 {
+        color: purple;
+      }
+
+      .image-grid {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+      }
+
+      .image-container {
+        width: 200px;
+        border: 1px solid #ccc;
+        margin: 0;
+        text-align: center;
+      }
+
+      .image-container img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .image-container figcaption {
+        padding: 5px;
+        font-size: 0.9rem;
+      }
+
+      .links {
+        margin-top: 20px;
+        background-color: cadetblue;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .links a {
+        margin-right: 10px;
+        text-decoration: none;
+        color: blue;
+      }
+
+      .unord-list {
+        margin-top: 20px;
+        background-color: whitesmoke;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .ord-list {
+        margin-top: 20px;
+        background-color: whitesmoke;
+        padding: 10px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="atividade-section">
+      <h1><u>Atividade 2</u></h1>
+      <code>
+        Equipes de até 3 Pessoas
+Criar uma página HTML que contenha os seguintes elementos:
+Elementos padrão (head, meta, title, etc...)(Incluir os meta authors)
+Um título em H1
+4 imagens com legenda (verificar a tag figure e suas filhas)
+outros elementos em h2 até h6, cada um com a cor da letra diferente. Deve ser utilizada a TAG STYLE e seletores de TAG.
+3 links para sites da internet
+uma lista não ordenada com no mínimo 5 itens
+uma lista ordenada com os marcadores em romanos, contando ao contrário, com no mínimo 5 itens. 
+Entrega hoje.
+Valor 0,5 pontos
+Mesma coisa de sempre, somente um da equipe precisa entregar. 
+Faça um zip (não rar, zip mesmo) do projeto e envie, lembre-se de incluir o nome dos integrantes do grupo em comentário particular.
+      </code>
+      <div class="image-grid">
+        <figure class="image-container">
+          <img src="images/caveira.png" alt="Caveira" />
+          <figcaption>Caveira</figcaption>
+        </figure>
+
+        <figure class="image-container">
+          <img src="images/nerd1.png" alt="Nerd" />
+          <figcaption>Nerd</figcaption>
+        </figure>
+
+        <figure class="image-container">
+          <img src="images/pedra.png" alt="Pedra" />
+          <figcaption>Pedra</figcaption>
+        </figure>
+
+        <figure class="image-container">
+          <img src="images/pendrives.png" alt="Pendrives" />
+          <figcaption>Pendrives</figcaption>
+        </figure>
+      </div>
+
+      <h2>Título H2</h2>
+      <h3>Título H3</h3>
+      <h4>Título H4</h4>
+      <h5>Título H5</h5>
+      <h6>Título H6</h6>
+
+      <div class="links">
+        <a href="https://www.google.com">Google</a>
+        <a href="https://www.microsoft.com">Microsoft</a>
+        <a href="https://www.apple.com">Apple</a>
+      </div>
+
+      <div class="unord-list">
+        <ul type="square">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+        </ul>
+      </div>
+
+      <div class="ord-list">
+        <ol reversed type="I">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>
